@@ -1,0 +1,242 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "CollegeCulinary",
+				"abbreviation": "Culinary",
+				"full": "College of Culinary",
+				"version": "1.0"
+			}
+		],
+		"dateAdded": 1616026002,
+		"dateLastModified": 1616026002
+	},
+	"subclass": [
+		{
+			"name": "College of Culinary",
+			"shortName": "Culinary",
+			"source": "CollegeCulinary",
+            "className": "Bard",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"College of Culinary|Bard|PHB|Culinary|CollegeCulinary|3",
+				"Elevated Meal|Bard|PHB|Culinary|CollegeCulinary|6",
+				"Make a Snack|Bard|PHB|Culinary|CollegeCulinary|6",
+				"Elevated Meal|Bard|PHB|Culinary|CollegeCulinary|14",
+				"Signature Dish|Bard|PHB|Culinary|CollegeCulinary|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "College of Culinary",
+			"source": "CollegeCulinary",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Culinary",
+			"subclassSource": "CollegeCulinary",
+			"level": 3,
+			"entries": [
+				"In their practice of magic through performance, there are bards who continue to find innovative and more personalized ways of expressing themselves. A common calling is the College of Culinary, where bards express themselves through food and drink. The magic in their meals comes from not only them, but also their upbringing and history. The people they get a chance to share their concoctions with almost seem to be doused in a glaze of power.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Preparation Proficiency|Bard|PHB|Culinary|CollegeCulinary|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Make a Meal|Bard|PHB|Culinary|CollegeCulinary|3"
+				},
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bardic Spellcasting Focus Variant|Bard|PHB|Culinary|CollegeCulinary|3"
+                }
+			]
+		},
+		{
+			"name": "Preparation Proficiency",
+			"source": "CollegeCulinary",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Culinary",
+			"subclassSource": "CollegeCulinary",
+			"level": 3,
+			"entries": [
+				"When you join the College of Culinary at 3rd level, you gain proficiency with your choice of Cook's Utensils or Brewer's Supplies . You also gain proficiency with using culinary tools as weapons. Culinary weapons can be used as an arcane focus for your spells. Having one on your person also allows you to use the following ability:",
+				{
+					"type": "entries",
+					"entries" : [
+						{
+							"type": "entries",
+							"name": "Prepare a Dish",
+							"entries": [
+								"You can expend one of your uses of Bardic Inspiration as an action to start preparing food in the heat of battle. Creatures who can see or smell your food within 15 feet of you must make a Wisdom saving throw against your bard spell save DC. If they fail, they must subtract your proficiency bonus from all of their attack rolls until the start of your next turn. Allies can choose to succeed on this saving throw.",
+								"You can continue cooking this dish as a bonus action on each of your subsequent turns for up to one minute, prompting a new Wisdom saving throw each turn. Creatures who succeed on their saving throw once cannot be affected by this ability until you prepare a new dish.",
+								"If you have 1/2 lb. of fresh ingredients, you can use them in the dish. These ingredients are consumed during the dish preparation process, but they double the range of this ability to 30 feet. The resulting dish may not be edible."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+            "type": "inset",
+            "name": "Bardic Spellcasting Focus Variant",
+            "source": "CollegeCulinary",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Culinary",
+            "subclassSource": "CollegeCulinary",
+            "level": 3,
+            "entries": [
+                "Bards perform their magic through a variety of means beyond musical instruments. With this variant, bards can use a non-musical tool or simple melee weapon as a spell focus, granted it relates to their profession/performance.", 
+                "That said, it's not uncommon for a culinary bard to make music using their cooking tools."
+            ]
+        },
+		{
+			"name": "Make a Meal",
+			"source": "CollegeCulinary",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Culinary",
+			"subclassSource": "CollegeCulinary",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you can create filling concoctions to power the hungry through their day. During a short or long rest, you can expend one of your uses of your Bardic Inspiration to select a flavor from the Meal Preparation table, magically conjure ingredients, and prepare a meal which embodies that flavor. Roll a Bardic Inspiration die to determine the number of people the meal will feed. You can roll more Bardic Inspiration dice to conjure more meals during this rest.",
+				"Eating a meal grants the corresponding effects of its flavor in the Meal Preparation table. The eater also receives a bonus to that flavor's saving throw equal to your charisma modifier.",
+				"If you have enough fresh ingredients (1 lb. per person the meal feeds) of your selected flavor, you can use those in your meal. These ingredients are consumed during the meal preparation process, but they double the numerical values of the meal's bonuses for the duration of its effects. A meal can be consumed during a long or short rest. Once consumed, these effects last for 8 hours. If a creature consumes your meal, they cannot consume another meal made with this ability until they complete a long rest. A meal can be kept unconsumed up to 24 hours before it goes bad.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                    	"Flavor",
+                        "Saving Throw",
+                        "Meal Effects (Lasts 8 hours)",
+                        "Example ingredients"
+                    ],
+                    "rows": [
+                    	[
+                            "Savory",
+                            "STR",
+                            "+1 to all attack rolls",
+                            "Meat, Eggs, Mushrooms"
+                        ],
+                        [
+                            "Spicy",
+                            "DEX",
+                            "+5 ft speed bonus",
+                            "Peppers, Garlic"
+                        ],
+                        [
+                            "Sweet",
+                            "CON",
+                            "If you are below half your hit point maximum but above 0 hit points at the start of your turn, you regain 1 hit point.",
+                            "Grains, Milk, Fruit"
+                        ],
+                        [
+                            "Sour",
+                            "INT",
+                            "+1 AC bonus",
+                            "Ripe Fruits, Cheese"
+                        ],
+                        [
+                            "Bitter",
+                            "WIS",
+                            "+5 passive perception",
+                            "Greens, Herbs"
+                        ],
+                        [
+                            "Salty",
+                            "CHA",
+                            "+1 to all abiliy Checks",
+                            "Nuts, Sea Vegetables"
+                        ]
+                    ]                                             
+                }
+			]
+		},
+		{
+			"name": "Elevated Meal",
+			"source": "CollegeCulinary",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Culinary",
+			"subclassSource": "CollegeCulinary",
+			"level": 6,
+			"entries": [
+				"At 6th level, you can make meals using two different flavors at the same time, granting the eater the bonuses from both flavors as per the Meal Preparation table."
+			]
+		},
+		{
+			"name": "Make a Snack",
+			"source": "CollegeCulinary",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Culinary",
+			"subclassSource": "CollegeCulinary",
+			"level": 6,
+			"entries": [
+				"At 6th level, you can whip up a quick morsel for adventurers on the go. During a short or long rest, you can expend one of your uses of Bardic Inspiration to conjure snacks. Roll a Bardic Inspiration die to determine the number of snacks you create with the flavor of your choice.",
+				"You can add a second flavor to your snack if you have enough fresh ingredients (1/2 lb. per person the snack feeds). These ingredients are consumed during the snack preparation process.",
+				"A snack grants the corresponding effect of its flavors in the Snack Preparation table.",
+				"A snack can be consumed as a bonus action on the eater's turn. Its effects last for a number of minutes equal to 1 × your charisma modifier (minimum 1 minute). If a creature consumes your snack while under the effects of a previous snack, they immediately lose the ongoing effects of the previous snack. A snack can be kept unconsumed up to 4 hours before it goes bad.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                    	"Flavor",
+                    	"Snack Effect (Lasts 1 x your charisma modifier minutes, minium 1"
+                    ],
+                    "rows": [
+                    	[
+                    		"Savory",
+                    		"+2 bonus to ability checks and attack rolls that use Strength"
+                    	],
+                    	[
+                    		"Spicy",
+                    		"+2 bonus to ability checks and attack rolls that use Dexterity"
+                    	],
+                    	[
+                    		"Sweet",
+                    		"Gain 2 temporary hit points at the start of each of your turns"
+                    	],
+                    	[
+                    		"Sour",
+                    		"+2 bonus to ability checks and attack rolls that use Intelligence"
+                    	],
+                    	[
+                    		"Bitter",
+                    		"+2 bonus to ability checks and attack rolls that use Wisdom"
+                    	],
+                    	[
+                    		"Salty",
+                    		"+2 bonus to ability checks and attack rolls that use Charisma"
+                    	]
+                    ]
+                }
+			]
+		},
+        {
+			"name": "Elevated Meal",
+			"source": "CollegeCulinary",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Culinary",
+			"subclassSource": "CollegeCulinary",
+			"level": 14,
+			"entries": [
+				"At 14th level, you can make using three different flavors at the same time, granting the eater the bonuses from all three flavors as per the Meal Preparation table."
+			]
+		},
+		{
+			"name": "Signature Dish",
+			"source": "CollegeCulinary",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Culinary",
+			"subclassSource": "CollegeCulinary",
+			"level": 14,
+			"entries": [
+				"At 14th level, your food could entice the gods themselves.",
+				"Pick two different flavors. Meals and snacks created using either of these flavors use the maximum Bardic Inspiration dice roll. Additionally, the fresh ingredients bonus is applied to these meals and snacks without you expending or possessing fresh ingredients."
+			]
+		}
+	]
+}
