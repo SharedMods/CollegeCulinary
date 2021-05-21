@@ -112,6 +112,10 @@
                         "Meal Effects (Lasts 8 hours)",
                         "Example ingredients"
                     ],
+                    "colStyles": [
+                    	"col-1 text-left",
+                    	"col-3 text-left"
+                    ],
                     "rows": [
                     	[
                             "Savory",
@@ -183,6 +187,10 @@
                     "colLabels": [
                     	"Flavor",
                     	"Snack Effect (Lasts 1 x your charisma modifier minutes, minium 1"
+                    ],
+                    "colStyles": [
+                    	"col-1 text-left",
+                    	"col-2 text-left"
                     ],
                     "rows": [
                     	[
