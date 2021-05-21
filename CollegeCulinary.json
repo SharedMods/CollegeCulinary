@@ -23,7 +23,7 @@
 				"Elevated Meal|Bard|PHB|Culinary|CollegeCulinary|6",
 				"Make a Snack|Bard|PHB|Culinary|CollegeCulinary|6",
 				"Elevated Meal|Bard|PHB|Culinary|CollegeCulinary|14",
-				"Signature Dish|Bard|PHB|Culinary|CollegeCulinary|14"
+				"Chef's Kiss|Bard|PHB|Culinary|CollegeCulinary|14"
 			]
 		}
 	],
@@ -222,11 +222,12 @@
 			"subclassSource": "CollegeCulinary",
 			"level": 14,
 			"entries": [
-				"At 14th level, you can make using three different flavors at the same time, granting the eater the bonuses from all three flavors as per the Meal Preparation table."
+				"At 14th level, you can make using three different flavors at the same time, granting the eater the bonuses from all three flavors as per the Meal Preparation table.",
+				"Additionally, the fresh ingredients bonus is applied to meals and snacks without you expending or possessing fresh ingredients."
 			]
 		},
 		{
-			"name": "Signature Dish",
+			"name": "Chef's kiss",
 			"source": "CollegeCulinary",
 			"className": "Bard",
 			"classSource": "PHB",
@@ -234,8 +235,7 @@
 			"subclassSource": "CollegeCulinary",
 			"level": 14,
 			"entries": [
-				"At 14th level, your food could entice the gods themselves.",
-				"Pick two different flavors. Meals and snacks created using either of these flavors use the maximum Bardic Inspiration dice roll. Additionally, the fresh ingredients bonus is applied to these meals and snacks without you expending or possessing fresh ingredients."
+				"Whenver you stop to eat your own cooking during a short rest, you can regain a number of spell slots. The spell slots can have a combined level equal to your proficiency bonus, and none of the spell slots can be 3rd or higher."
 			]
 		}
 	]
